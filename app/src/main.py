@@ -71,7 +71,7 @@ class SampleApp(VehicleApp):
         # Get the current vehicle speed value from the received DatapointReply.
         # The DatapointReply containes the values of all subscribed DataPoints of
         # the same callback.
-        vehicle_speed = data.get(self.Vehicle.Speed).value
+        vehicle_speed = 100
 
         # Do anything with the received value.
         # Example:
